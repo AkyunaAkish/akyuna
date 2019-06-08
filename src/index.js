@@ -24,36 +24,36 @@ const theme = createMuiTheme({
     },
     palette: {
         common: {
-            black: 'rgba(40, 44, 51, 1)',
-            white: 'rgba(245, 245, 245, 1)'
+            black: '#000',
+            white: 'rgba(229, 229, 229, 1)'
         },
         background: {
-            paper: 'rgba(245, 245, 245, 1)',
-            default: 'rgba(245, 245, 245, 1)'
+            paper: 'rgba(229, 229, 229, 1)',
+            default: 'rgba(229, 229, 229, 1)'
         },
         primary: {
-            light: 'rgba(207, 173, 239, 1)',
-            main: 'rgba(181, 108, 244, 1)',
-            dark: 'rgba(160, 64, 246, 1)',
+            light: 'rgba(40, 44, 51, 0.75)',
+            main: 'rgba(40, 44, 51, 1)',
+            dark: 'rgba(32, 34, 42, 0.12)',
             contrastText: '#fff'
         },
         secondary: {
-            light: 'rgba(232, 175, 241, 1)',
-            main: 'rgba(221, 143, 236, 1)',
-            dark: 'rgba(213, 107, 233, 1)',
+            light: 'rgba(34, 183, 223, 0.83)',
+            main: 'rgba(34, 183, 223, 1)',
+            dark: 'rgba(8, 107, 138, 1)',
             contrastText: '#fff'
         },
         error: {
             light: '#e57373',
-            main: 'rgba(235, 89, 72, 1)',
+            main: '#f44336',
             dark: '#d32f2f',
             contrastText: '#fff'
         },
         text: {
-            primary: 'rgba(40, 44, 51, 1)',
-            secondary: 'rgba(92, 95, 99, 1)',
-            disabled: 'rgba(146, 149, 153, 1)',
-            hint: 'rgba(132, 137, 148, 1)'
+            primary: 'rgba(32, 34, 42, 1)',
+            secondary: 'rgba(40, 44, 51, 0.73)',
+            disabled: 'rgba(0, 0, 0, 0.38)',
+            hint: 'rgba(0, 0, 0, 0.38)'
         }
     }
 });
@@ -85,6 +85,3 @@ if (module.hot) {
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-
-

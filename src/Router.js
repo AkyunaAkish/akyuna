@@ -28,9 +28,6 @@ const Home = asyncComponent({
 	resolve: () => import('./components/Home/Home'),
 });
 
-const SearchResults = asyncComponent({
-    resolve: () => import('./components/SearchResults/SearchResults'),
-});
 
 class Router extends PureComponent {
 	componentDidMount = () => {        
@@ -125,7 +122,6 @@ class Router extends PureComponent {
                     <TopBar />
 
                     <Switch>                        
-                        <Route path='/search/:searchText' component={ SearchResults } />
                         <Route exact path='/' component={ Home } />
 						<Redirect from='*' to='/' />
 					</Switch>

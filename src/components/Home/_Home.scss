@@ -1,16 +1,10 @@
 .home {
-    height: calc(100vh - 64px);
-    width: calc(100% - 150px);
-    position: absolute;
-    top: 64px;
-    right: 0;
-    overflow: auto;
-    background-color: $white;
+    // height: calc(100vh - 64px);
+    // width: calc(100% - 150px);
+    // position: absolute;
+    // top: 64px;
+    // right: 0;
+    // overflow: auto;
+    // background-color: $white;
     
-    @media (max-width: 600px) {
-        & {
-            height: calc(100vh - 58px);
-            top: 58px;
-        }
-    }
 }
