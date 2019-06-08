@@ -1,0 +1,27 @@
+.side-nav {
+    height: calc(100vh - 72px);
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    padding-top: 0 !important;
+
+    @media (max-width: 600px) {
+        & {
+            height: calc(100vh - 63px);
+        }
+    }
+
+    background-color: rgba(181, 108, 244, .6);
+
+    span {
+        color: $white;
+        fill: $white;
+        padding-left: 20px;   
+        text-shadow: 2px 2px 3px rgba(245, 245, 245,0.5);
+        font-size: 20px;
+    }
+}
